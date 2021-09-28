@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Roboto,Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------------------------------------------------------------------*/
+.wrapper{    
+    height:auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.nav-section{    
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: auto;
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+}
+.nav-section-one{
+    background-color: #fff;
+    height: 50px;
+    display: inline-flex;
+}
+.nav-section-two{
+    margin-left: 240px;
+    background-color: #fff;
+    height: 50px;
+    padding: 5px;
+    z-index: 1;
+}
+#ytube{
+    height: 36px;
+    width: 95px;
+}
+#search-input{
+    margin-left: 12em;
+    margin-top: .5em;
+    height: 28px;
+    width: 566px;
+    text-indent: 10px;
+}
+#search-input-button{
+    margin-top: .5em;
+    margin-left: 2px;
+    height: 32px;
+    width: 60px;
+    outline: none;
+    border: 0;
+}
+
+#search-input-search{
+    height: 24px;
+    width: 20px;
+}
+#icon-group{
+    padding-left: 106px;
+}
+.nav-icon{
+    padding-top:.7em ;
+    margin-left: 25px;
+    padding-right: 7px;
+    height:21px;
+}
+.mic{
+    height: 21px;
+    padding-top:.7em ;
+    margin-left: 10px;
+}
+
+.nav-section-two-btngroup{
+    padding: 1px 20px;
+}
+.nav-second-btn{
+    margin-top: 10px;
+    margin-right: 7px;
+    margin-left: 5px;
+    outline: none;
+    padding: 0 10px;
+    border: none;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    width:auto;
+    height:32px ;
+    font-family: Roboto;
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+}
+.vline{
+    margin-left: 240px;
+    border-bottom:1px solid #e1e1e1 ;
+}
+
+
+/* -------------------------------------------------------------------------------------*/
+.option-section{
+    height: auto;  
+    display: flex; position: sticky;
+    top: 0;
+}
+.option-section-one{
+    /* display: inline-flex; */
+    margin-top: -60px;
+    width: 240px;
+    height: auto;
+    background-color: #fff;
+    
+}
+
+.section-one-options{
+    padding-top: 16px;
+    padding-left:25px;
+}
+.option-icones{
+    margin-bottom: -5px;
+}
+.option-texts{
+    padding-left: 12px;
+    font-size: 0.5rm;
+    font-family: Roboto;
+}
+.subscription{
+    margin-left: -10px;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+/* -------------------------------------------------------------------------------------*/
+.option-section-two{
+    height: auto;
+    width: auto;
+    background-color: #f9f9f9;
+}
+.mainC{
+    margin: 15px;
+    display: flex;
+}
+.op-2-container{
+    flex-direction: column;
+    padding-left: 15px;
+    width:260px;
+    height:auto;
+}
+.description-container{
+    display: flex;
+    padding-top: 8px;
+}
+.image-container{
+    width:255px;
+    height: 142;
+}
+
+.image-thumb{
+    width: 249px;
+    height: 140px;
+}
+.text-C{
+    display: flex;
+    flex-direction: column;
+}
+.channel-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+.cname{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
